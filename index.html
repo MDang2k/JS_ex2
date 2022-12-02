@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Exercise 2</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- Bài 1 -->
+
+    <div class="container">
+        <h1>Bài 1</h1>
+
+        <div class="form-group">
+            <label for="">Enter number of working days</label>
+            <input type="number" class="form-control" id="day" placeholder="">
+        </div>
+
+        <button class="btn btn-success result_1">Enter</button>
+
+        <div class="container my-4">
+            <p>Earned Wage: </p>
+            <span id="ex1_result"></span>
+        </div>
+    </div>
+
+    <!-- Bài 2 -->
+    <div class="container">
+        <h1>Bài 2</h1>
+        <div class="form-group">
+            <label for="">Enter 5 real numbers</label>
+            <input type="number" class="form-control my-4" id="num1" placeholder="">
+            <input type="number" class="form-control my-4" id="num2" placeholder="">
+            <input type="number" class="form-control my-4" id="num3" placeholder="">
+            <input type="number" class="form-control my-4" id="num4" placeholder="">
+            <input type="number" class="form-control my-4" id="num5" placeholder="">
+        </div>
+
+        <button class="btn btn-success result_2">Enter</button>
+
+        <div class="container my-4">
+            <p>The average is: <span id="ex2_result"></span></p>
+
+        </div>
+    </div>
+
+    <!-- Bài 3 -->
+    <div class="container">
+        <h1>Bài 3</h1>
+        <div class="form-group">
+            <label for="">Enter the $ amount</label>
+            <input type="number" class="form-control" id="dollar" placeholder="">
+        </div>
+
+        <button class="btn btn-success result_3">Enter</button>
+
+        <div class="container my-4">
+            <p>Exchange to VND: </p>
+            <span id="ex3_result"></span>
+        </div>
+    </div>
+
+    <!-- Bài 4 -->
+    <div class="container p-4">
+        <h1>Bài 4</h1>
+        <div class="form-group">
+            <label for="">Enter the length of rectangle</label>
+            <input type="number" class="form-control mt-3" id="length" placeholder="">
+            <label class="mt-3" for="">Enter the width of rectangle</label>
+            <input type="number" class="form-control mt-3" id="width" placeholder="">
+        </div>
+
+        <button class="btn btn-success result_4">Enter</button>
+
+        <div class="container my-4">
+            <p>Area of the rectangle: </p>
+            <span id="area"></span>
+        </div>
+
+        <div class="container my-4">
+            <p>Perimeter of the rectangle: </p>
+            <span id="perimeter"></span>
+        </div>
+    </div>
+
+    <!-- Bài 5 -->
+    <div class="container p-4">
+        <h1>Bài 5</h1>
+        <div class="form-group">
+            <label for="">Enter a number with 2 digits</label>
+            <input type="number" class="form-control my-3" id="number" placeholder="">
+        </div>
+
+        <button class="btn btn-success result_5">Enter</button>
+
+        <div class="container my-4">
+            <p>Sum of 2 digits: </p>
+            <span id="ex5_result"></span>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- My Script  -->
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
